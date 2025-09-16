@@ -1,7 +1,7 @@
 #!/bin/python3.11
 #Created by John W Cunningham
-#Run syntax: python3 cisco_pull.py <dir>
-# - <dir>: a directory containing two files: cmds.txt and target.txt
+#Run syntax: python3.11 pull_config.py <dir>
+# - <dir>: a directory containing two files: pull_cmds.txt and target.txt
 # - where pull_cmds.txt is a file containing desired commands for pulling data whether it be state or running-config
 # - where target.txt is a file containing the desired inventory
 
