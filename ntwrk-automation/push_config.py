@@ -1,6 +1,9 @@
 #!/bin/python3.11
 # Created by John W Cunningham
-# Purpose: This program takes commands from an already defined command file and pushes them to devices in an already existing inventory file
+#Run syntax: python3 push_config.py <dir>
+# - <dir>: a directory containing two files: push_cmds.txt and target.txt
+# - where push_cmds.txt is a file containing desired commands for pulling data whether it be state or running-config
+# - where target.txt is a file containing the desired inventory
 
 #global libraries
 from flytools import securetools
